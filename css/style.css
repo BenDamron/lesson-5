@@ -54,6 +54,7 @@ body {
     padding: 15px 32px;
     -webkit-transition: background-color 2s;
     transition:background-color .25s;
+    border-bottom: 2px solid #004fb2
     
 }
 #nav > ul >button:hover {
@@ -81,11 +82,11 @@ body {
     
 }
 .side-by-side{
-    display: flex;
+    
 }
 
 #main-content-wrapper .img-content {
-    text-align:center;S
+    text-align:center;
     margin: 0 auto;
     margin-top:50px;
 }
@@ -110,8 +111,7 @@ body {
 }
 
 #main-content-wrapper article {
-    width:50%;
-    margin-top:100px;
+    
 }
 
 #main-content-wrapper article h2 {
@@ -135,7 +135,7 @@ main-content-wrapper #skills span{
     background-color:plum;
     font-family:'lato', sans-serif;
     background-color: #fff;
-    margin-top: 50px;
+    margin-top:50px;
     }
 #aside-right{
     margin: 0 50px 0 8px;
@@ -147,6 +147,7 @@ main-content-wrapper #skills span{
     list-style-type:none;
 }
 #latest-work > li {
+    padding:15;
     padding-top: 15px;
     padding-bottom: 15px;
     width: 100%;
@@ -169,6 +170,7 @@ main-content-wrapper #skills span{
     background-image: url(img/computer.jpeg);
     border-top: 5px #b2790f solid;
     border-bottom: 5px #004fb2 solid;
+    text-align: center;
     }
 #favorite-sites > ul {
     list-style-type:none;
@@ -195,4 +197,9 @@ header > h1 {
     font-family:'Lato', sans-serif;
     position:relative;
     transform: translateY(50%)
+}
+
+.max-width {
+    margin:0 auto;
+    max-width: 960px;
 }
